@@ -6,8 +6,7 @@ let hasil = "Masukkan jumlah nilai: " + jumlahData + "\n\n";
 for (let i = 1; i <= jumlahData; i++) {
   let nilai = parseInt(prompt("Masukkan nilai ke-" + i + ":"));
   hasil += "Nilai ke-" + i + " = " + nilai + "\n";
-  total += nilai;
-}
+  total += nilai;}
 
 let rataRata = total / jumlahData;
 
